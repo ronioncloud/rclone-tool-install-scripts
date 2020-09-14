@@ -1,4 +1,4 @@
-# clone-tool-scripts
+# rclone-tool-scripts
 A few commands to automate installation of a few cloning tools.
 
 ### rclone (beta):
@@ -13,7 +13,7 @@ sudo su -c "bash <(wget -qO- https://git.io/gclone.sh)" root
 
 ### fclone:
 ``` 
-sudo su -c "bash <(wget -qO- https://yuuu.uno/fclone.sh)" root
+curl -fsSL git.io/fclone.sh | bash
 ```
 
 ### AutoRclone:
