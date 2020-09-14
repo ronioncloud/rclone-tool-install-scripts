@@ -13,7 +13,7 @@ sudo su -c "bash <(wget -qO- https://git.io/gclone.sh)" root
 
 ### fclone:
 ``` 
-curl -fsSL git.io/fclone.sh | bash
+sudo curl -fsSL git.io/fclone.sh | sudo bash
 ```
 
 ### AutoRclone:
